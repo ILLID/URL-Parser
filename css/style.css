@@ -1,0 +1,71 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}	
+
+html {
+   height: 100%;
+}
+
+body {
+    position: relative;
+	margin: 0;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #000000;
+	height: 100%;
+    background: #ffffff;
+    word-wrap: break-word;
+    overflow-y: scroll;
+    overflow-x: hidden!important;
+    -webkit-font-smoothing: antialiased;
+}
+
+button {
+	cursor: pointer;
+}
+
+#url,
+#submit {
+	display: block;
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+.table {
+	display: table;
+	width: 100%;
+    height: 100%;
+}
+
+.cell {
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+	width: 50%;
+    margin: 0 auto;
+}
+
+.page-summary {
+	border: 1px solid #ccc;
+	padding: 15px;
+	margin: 0 0 15px;
+}
+
+.page-title,
+.page-content,
+.page-image {
+	margin: 0 0 5px;
+}
+
+.page-hostname {
+	color: #ccc;
+}
